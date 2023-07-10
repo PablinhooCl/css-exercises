@@ -1,0 +1,21 @@
+ 
+  
+
+p.odd {
+    background-color: rgb(221, 162, 162);
+    font-family: Verdana, 'DejaVu Sans',sans-serif;
+}
+div#cuarto {
+    background-color: rgb(147, 226, 147);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+  div#secondo {
+    color: blue;
+    font-size: 36px;
+}
+
+  p.odd#unico {
+    font-size: 24px;
+}
