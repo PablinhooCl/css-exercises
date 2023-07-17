@@ -3,15 +3,19 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
+  
   background: #eee;
   font-family: Besley, serif;
+  margin: 0;
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display:flex;
+  flex-direction: row;
 }
 
 .profile-image {
@@ -20,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: 8px 16px 8px 16px;
 }
 
 .logo {
@@ -27,6 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px 0px 8px 16px;
 }
 
 button {
@@ -35,6 +41,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px 0px 8px 0px;
 }
 
 a {
@@ -45,4 +52,25 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+.cont {
+  display: flex;
+}
+.der {
+ align-items: center;
+ 
+ margin-left: auto;
+}
+.links {
+  margin: 8px 16px 8px 16px;
+  padding-left: 0px;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
